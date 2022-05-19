@@ -8,3 +8,13 @@ html {
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+
+h1, h2, h3, h4, h5, h6, p,  header  {
+  margin: 0;
+  padding: 0;
+}
+* {
+  --main-color: #30b5f2;
+  --grey-color: rgb(54, 54, 54);
+  --white-color: #f6f6f6;
+}

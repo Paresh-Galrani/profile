@@ -1,0 +1,20 @@
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+main {
+  height: calc(100% - 6rem);
+}
+
+footer {
+  height: 2rem;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
