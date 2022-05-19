@@ -1,0 +1,56 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "common.js",
+  "scripts": {
+    "clean:build": "rimraf build",
+    "build": "run-s clean:build build:app",
+    "build:app": "webpack --config webpack.prod.js",
+    "serve": "webpack-dev-server --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paresh-Galrani/profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paresh-Galrani/profile/issues"
+  },
+  "homepage": "https://github.com/Paresh-Galrani/profile#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-async-to-generator": "7.4.4",
+    "@babel/plugin-transform-regenerator": "7.4.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.6.2",
+    "@types/node": "^14.10.1",
+    "awesome-typescript-loader": "^5.0.0",
+    "babel-loader": "8.0.5",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "class-autobind": "^0.1.4",
+    "css-loader": "2.1.1",
+    "es6-promise": "^4.2.8",
+    "eslint": "5.16.0",
+    "file-loader": "3.0.1",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "0.23.1",
+    "to-string-loader": "1.1.5",
+    "typescript": "^3.9.3",
+    "typings": "^2.1.1",
+    "url-loader": "1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-manifest-plugin": "^2.2.0",
+    "webpack-merge": "^4.2.2",
+    "write-file-webpack-plugin": "^4.5.1"
+  }
+}

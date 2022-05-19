@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "removeComments": false,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "typeRoots": [
+      "typings/custom",
+      "node_modules/@types"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "./pages/*"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    // "useBabel": true,
+    "useCache": true,
+    "useTranspileModule": true
+  }
+}
